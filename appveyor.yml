@@ -12,7 +12,7 @@ assembly_info:
 build:
   verbosity: minimal
 artifacts:
-- path: *.nupkg
+- path: src\*.nupkg
   name: NuGet
 - path: src\TimberWinR.ServiceHost\bin\*\*.dll
   name: Dlls
