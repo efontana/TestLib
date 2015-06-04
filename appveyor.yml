@@ -14,7 +14,7 @@ build:
 artifacts:
 - path: .\*.nupkg
   name: NuGet
-- path: .\TimberWinR.ServiceHost\bin\*\*.dll
+- path: .\ClassLibrary1\bin\*\*.dll
   name: Dlls
 deploy:
 - provider: NuGet
