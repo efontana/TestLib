@@ -16,6 +16,8 @@ artifacts:
   name: NuGet
 - path: .\ClassLibrary1\bin\*\*.dll
   name: Dlls
+- path: .\TimberWix\bin\*\*.msi
+  name: MSI 
 deploy:
 - provider: NuGet
   api_key:
